@@ -417,7 +417,7 @@ roi = (128, 128, 128)
 fold = 1
 train_loader, val_loader = get_loader(batch_size, data_dir, json_list, fold, roi)
 '''
-batch_size = 2
+batch_size = 1
 sw_batch_size = 4
 infer_overlap = 0.5
 max_epochs = 100
